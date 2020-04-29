@@ -1,0 +1,166 @@
+<!-- I started with the Bootstrap starter template  -->
+<!-- https://getbootstrap.com/docs/4.4/getting-started/introduction/#starter-template -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Roboto+Slab|Permanent+Marker&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <title>potatoTV</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar -->
+    <!-- I'm using the "navbar-light" color scheme, and a custom background color, defined in my styles.css -->
+    <!-- Because the navbar has a "container" inside, it has gutters (spacing) on the left and right -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #97b2d9">
+      <a class="navbar-brand" href="https://potato-tv.com/">potato<sup>TV</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Careers</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="pricing.html">Pricing</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0" action="https://www.netflix.com/">
+          <input class="form-control mr-sm-2" type="search" placeholder="Find content" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <!-- Full width Jumbotron -->
+    <!-- https://getbootstrap.com/docs/4.4/components/jumbotron/ -->
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <h1 class="display-4">Welcome to potato<sup>TV</h1 class="display-4">
+        <p class="lead">Connecting people from their couch</p>
+        <a class="signupbtn btn btn-light btn-lg"
+          style="background-color: #72bf5f"
+          href="pricing.html"
+          role="button"
+          >Our plans
+      </a>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h2>Become a potato</h2>
+        </div>
+      </div>
+      <!-- An example of Bootstrap's spacing utility classes -->
+      <!-- https://getbootstrap.com/docs/4.4/utilities/spacing/#how-it-works -->
+      <!-- The "mt-4" gives you more margin on top, responsively -->
+      <div class="row mt-4">
+        <div class="col-sm-4 text-center">
+          <h1><i class="fas fa-tv"></i></h1>
+          <h5>Social streaming</h5>
+          <p>Stay home & stay connected. Potato TV allows you to simultaneously stream the same show or movie as your friends. Gone are the days of lonely binge watching.</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1><i class="fas fa-mobile"></i></h1>
+          <h5>A seamless app</h5>
+          <p>Potato TV creates a user-friendly experience that allows you to interact with your friends during the movies & shows you love, across all devices.</p>
+        </div>
+        <div class="col-sm-4 text-center">
+          <h1><i class="fas fa-users"></i></h1>
+          <h5>Real-time connection</h5>
+          <p>You can find what your friends are watching & jump in with them. With fun messaging and video capabilities, you can stay on the couch & get in the game.</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Just a line, a "horizontal rule" with some space on the y-axis -->
+    <hr class="my-4">
+
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <img src="./images/logo3.png" class="img-fluid" alt="Responsive image">
+            <h2>Come join the social streaming movement</h2>
+        </div>
+      </div>
+      <div class="embed-responsive embed-responsive-16by9">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
+    </div>
+      <!-- <img src="./images/jumbopic2.jpg" class="img-fluid" alt="Responsive image"> -->
+
+    </div>
+
+
+    <div class="row mt-4">
+      <div class="col-sm-4">
+        </div>
+          <div class="col-sm-4 text-center">
+            <form>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="name@example.com" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" placeholder="********" id="exampleInputPassword1">
+              </div>
+              <div class="form-group form-check">
+              </div>
+              <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+          <div class="col-sm-4">
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer, just another grid, with a class added for custom styling -->
+    <div class="container footer">
+      <div class="row my-5">
+        <div class="col-sm-6">
+          <img src="./images/logo4.png" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-sm-3">
+          <h6>More info</h6>
+          <ul class="list-unstyled mt-3">
+            <li><a href="pricing.html">Plans</a></li>
+            <li><a href="contact.html">Join us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h6>Established 2020</h6>
+          <p class="mt-3"><em>potato<sup>TV</sup>, inc.</em></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>

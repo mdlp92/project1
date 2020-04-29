@@ -1,0 +1,69 @@
+/* Typography */
+body {
+  /* Everything is Raleway */
+  font-family: 'Poppins', sans-serif;
+}
+/* Except we're using more specific rules to override the headlines */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+/* And the "logo" */
+.navbar-brand {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+}
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+.navbar-light .navbar-brand {
+  color: #20235a;
+}
+
+.signupbtn {
+  color: white;
+}
+/* Navbar background color */
+.navbar {
+  background-color: white;
+}
+
+/* Jumbotron background and font styles */
+/* Notice that I'm using all of the background CSS rules on the CSS cheat sheet */
+.jumbotron {
+  /* Background */
+  background-attachment: fixed;
+  background-image: url(./images/jumbopic4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Fonts */
+  /* The text-shadow helps the white text stand out better on a darker background */
+  color: white;
+  text-shadow: 1px 1px 1px black;
+}
+
+/* The background color of the "testimonials" part */
+.testimonials {
+  background-color: #eeeeee;
+}
+
+/* The size of the testimonials images */
+.media img {
+  width: 64px;
+  height: 64px;
+}
+
+/* The pricing */
+.pricing {
+  background-color: #FFFFFF;
+}
+.pricing h1 {
+  font-family: 'Poppins', sans-serif;
+  color: black;
+}
+
+/* The footer */
+.footer img {
+  width: 200px;
+}
